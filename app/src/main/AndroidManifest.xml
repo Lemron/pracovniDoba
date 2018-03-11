@@ -3,24 +3,13 @@
     package="com.example.jbory_000.pracovnidoba">
 
     <application
-        android:fullBackupContent="true"
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".menu"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".zamestnanci" />
         <activity android:name=".zamestnavatel" />
         <activity android:name=".pridatZamestnance" />
@@ -28,7 +17,16 @@
         <activity android:name=".reportPrace" />
         <activity android:name=".pridatProjekt" />
         <activity android:name=".existujiciProjekt" />
-        <activity android:name=".reportProjektu"></activity>
+        <activity android:name=".reportProjektu" />
+        <activity android:name=".EmployeeDetails"/>
+        <activity android:name=".DirectReports"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
