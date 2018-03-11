@@ -23,7 +23,7 @@ public class zamestnanci extends AppCompatActivity {
                 break;
             case R.id.existujiciZamestnanec:
                 //prechod na aktivitu zamestnanci
-                intent = new Intent(getApplicationContext(), EmployeeList.class);
+                intent = new Intent(getApplicationContext(), existujiciZamestnanec.class);
                 startActivity(intent);
                 break;
             case R.id.reportPrace:
