@@ -14,19 +14,22 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/pridatProjekt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pridat_projekt" />
+            android:text="@string/pridat_projekt"
+            android:onClick="zamestnavatelMenu"/>
 
         <Button
+            android:id="@+id/existujiciProjekt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/existujic_projekt" />
+            android:onClick="zamestnavatelMenu"/>
 
         <Button
+            android:id="@+id/reportProjektu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/report_projekt" />
+            android:onClick="zamestnavatelMenu"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

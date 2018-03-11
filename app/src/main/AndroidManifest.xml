@@ -3,6 +3,7 @@
     package="com.example.jbory_000.pracovnidoba">
 
     <application
+        android:fullBackupContent="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -21,7 +22,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".zamestnanci" />
-        <activity android:name=".zamestnavatel"></activity>
+        <activity android:name=".zamestnavatel" />
+        <activity android:name=".pridatZamestnance" />
+        <activity android:name=".existujiciZamestnanec" />
+        <activity android:name=".reportPrace" />
+        <activity android:name=".pridatProjekt" />
+        <activity android:name=".existujiciProjekt" />
+        <activity android:name=".reportProjektu"></activity>
     </application>
 
 </manifest>

@@ -15,19 +15,22 @@
             android:id="@+id/pridatZamestnance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pridat_zamesnance" />
+            android:text="@string/pridat_zamesnance"
+            android:onClick="zamestnanciMenu"/>
 
         <Button
             android:id="@+id/existujiciZamestnanec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/existujic_zamestnanci" />
+            android:text="@string/existujic_zamestnanci"
+            android:onClick="zamestnanciMenu"/>
 
         <Button
             android:id="@+id/reportPrace"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/report_prace" />
+            android:text="@string/report_prace"
+            android:onClick="zamestnanciMenu"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
