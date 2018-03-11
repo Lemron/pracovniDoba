@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jbory_000.pracovnidoba.zamestnanci">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/pridatZamestnance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pridat_zamesnance" />
+
+        <Button
+            android:id="@+id/existujiciZamestnanec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/existujic_zamestnanci" />
+
+        <Button
+            android:id="@+id/reportPrace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_prace" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

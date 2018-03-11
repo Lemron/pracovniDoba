@@ -3,4 +3,12 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="pridat_projekt">přidat projekt</string>
+    <string name="existujic_projekt">existující projekt</string>
+    <string name="report_projekt">report projektů</string>
+    <string name="pridat_zamesnance">přidat zamesnance</string>
+    <string name="existujic_zamestnanci">existující zamestnanci</string>
+    <string name="report_prace">report práce</string>
+    <string name="zamestnavatel">zamestnavatel</string>
+    <string name="zamestnanec">zamestnanec</string>
 </resources>
